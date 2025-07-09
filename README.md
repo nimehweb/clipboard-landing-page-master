@@ -2,7 +2,7 @@
 
 This is a solution to the **Clipboard landing page** challenge on [Frontend Mentor](https://www.frontendmentor.io). The goal of this project was to build a responsive landing page that showcases the features of a fictional Clipboard app, using modern HTML and Tailwind CSS practices.
 
-![Design preview](./preview.png)
+![Design preview](./preview.jpg)
 
 ## 🚀 Overview
 
