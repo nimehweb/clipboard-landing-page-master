@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Clipboard landing page</title>
+   <link href="src/output.css" rel="stylesheet">
+  <style>
+    *{
+      font-family:Bai Jamjuree ;
+    }
+    p{
+      color: hsl(201, 11%, 66%);
+    }
+    h1{
+      color:hsl(210, 10%, 33%) ;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+  </style>
+</head>
+<body>
+<section class="m-0 bg-[url(/images/bg-header-mobile.png)] bg-no-repeat bg-cover h-60 flex justify-center items-center lg:bg-[url(/images/bg-header-desktop.png)] " >
+  <div class="logo">
+    <img src="images/logo.svg" alt="logo">
+  </div> 
+</section>
+<section class=" text-center flex-col justify-center items-center">
+  <h1 class="text-3xl font-bold mb-3 max-w-80 mx-auto lg:max-w-max">A history of everything you copy</h1>
+  <p class="max-w-80 mx-auto lg:max-w-xl">Clipboard allows you to track and organize everything you 
+  copy. Instantly  access your clipboard on all your devices.
+</p>
+<div class="flex flex-col gap-6 mt-10 items-center lg:flex-row lg:justify-center">
+  <button class="p-3 text-white rounded-4xl w-50 shadow-md" style="background-color: hsl(171, 66%, 44%);"> Download for iOS</button>
+  <button class="p-3 text-white rounded-4xl w-50 shadow-md" style="background-color: hsl(233, 100%, 69%);">Download for Mac</button>
+</div>
+</section>
+<section class="text-center mt-20">
+  <h1 class="text-3xl font-bold max-w-80 mx-auto lg:max-w-max">Keep track of your snippets</h1>
+  <p class=" max-w-80 mx-auto mt-4 lg:max-w-160">Clipboard instantly stores any item you copy in the cloud, 
+  meaning you can access your snippets immediately on all your 
+  devices. Our Mac and iOS apps will help you organize everything.</p>
+</section>
+  <section class="flex flex-col gap-20 mt-20 text-center lg:flex-row lg:text-left" >
+    <div class="p-12 lg:p-0">
+      <img src="images/image-computer.png" alt="computer">
+    </div>
+    <div class="flex flex-col items-center lg:justify-center">
+      <div class="mb-10 p-0">
+        <h1 class="text-3xl font-bold mb-3.5">Quick Search</h1>
+        <p class="max-w-80">Easily search your snippets by content, category, web address, application, and more.</p>
+      </div>
+      <div class="mb-10">
+        <h1 class="text-3xl font-bold mb-3.5">iCloud Sync</h1>
+        <p class="max-w-80">Instantly saves and syncs snippets across all your devices.</p>
+      </div>
+      <div class="mb-10">
+        <h1 class="text-3xl font-bold mb-3.5">Complete History</h1>
+        <p class="max-w-80">Retrieve any snippets from the first moment you started using the app.</p>
+      </div>
+    </div>
+  </section>
+  <section class="text-center mt-20">
+  <h1 class="text-3xl font-bold max-w-sm mx-auto lg:max-w-max">Access Clipboard anywhere</h1>
+  <p class="max-w-sm mx-auto mt-4 lg:max-w-lg">Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+</section>
+<section class="flex justify-center mt-10 p-12 lg:p-0">
+  <img src="images/image-devices.png" alt="devices">
+</section>
+  <section class="text-center mt-10">
+  <h1 class="text-3xl font-bold max-w-sm mx-auto lg:max-w-max">Supercharge your workflow</h1>
+  <p class=" max-w-sm mx-auto mt-4">We’ve got the tools to boost your productivity.</p>
+</section>
+<section class="mt-30 flex flex-col  gap-10 lg:flex-row lg:justify-center lg:gap-5">
+  <div class="flex flex-col text-center">
+     <img src="images/icon-blacklist.svg" alt="" class="size-10 mx-auto">
+    <h1 class="text-2xl font-bold">Create blacklists</h1>
+    <p class=" w-90 ml-auto mr-auto mt-4">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+  </div>
+
+  <div class=" flex flex-col text-center">
+    <img src="images/icon-text.svg" alt="" class="size-10 mx-auto">
+    <h1 class="text-2xl font-bold">Plain text snippets</h1>
+    <p class=" w-90 ml-auto mr-auto mt-4">Remove unwanted formatting from copied text for a consistent look.</p>
+  </div>
+
+  <div class="flex flex-col text-center">
+    <img src="images/icon-preview.svg" alt="" class="size-10 mx-auto">
+    <h1 class="text-2xl font-bold">Sneak preview</h1>
+    <p class=" w-90 ml-auto mr-auto mt-4">Quick preview of all snippets on your Clipboard for easy access.</p>
+  </div>
+</section>
+<section class="flex flex-col gap-10 items-center mt-20 mb-20 lg:flex-row lg:justify-around">
+  <img src="images/logo-google.png" alt="">
+  <img src="images/logo-ibm.png" alt="">
+  <img src="images/logo-microsoft.png" alt="">
+  <img src="images/logo-hp.png" alt="">
+  <img src="images/logo-vector-graphics.png" alt="">
+</div>
+</section>
+
+<section class=" text-center flex-col  justify-center mb-30">
+  <h1 class="text-3xl font-bold mb-3 max-w-80 mx-auto lg:max-w-max"> Clipboard for iOS and Mac OS</h1>
+    <p class="max-w-sm mx-auto lg:max-w-xl">Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+  and you’re ready to start adding to your clipboard.
+</p>
+<div class="flex flex-col gap-6  mt-10 items-center lg:flex-row lg:justify-center">
+  <button class="p-3 text-white rounded-4xl w-50 shadow-lg pointer-fine:" style="background-color: hsl(171, 66%, 44%);"> Download for iOS</button>
+  <button class="p-3 text-white rounded-4xl w-50 shadow-lg" style="background-color: hsl(233, 100%, 69%);">Download for Mac</button>
+</section>
+<section class="flex flex-col items-center justify-center gap-10 pt-10 pb-10 bg-gray-100 lg:flex-row lg:gap-40">
+  <div><img src="images/logo.svg" alt="" class="size-10"></div>
+  <div class="flex flex-col text-center lg:flex-row lg:text-left lg:gap-30">
+    <div>
+      <p class="mb-3">FAQs</p>
+      <p class="mb-3">Contact Us</p>
+    </div>
+    <div>
+      <p class="mb-3">Privacy Policy</p>
+      <p class="mb-3">Press Kit</p>
+    </div>
+    <div>
+      <p>Install Guide</p></div>
+  </div>
+  <div class="flex gap-7">
+    <img src="images/icon-facebook.svg" alt="" class="size-6"><img src="images/icon-twitter.svg" alt="" class="size-6"><img src="images/icon-instagram.svg" alt="" class="size-6">
+  </div>
+</section>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Emmanuel</a>.
+    </p>
+  </footer> 
+</body>
+</html>
